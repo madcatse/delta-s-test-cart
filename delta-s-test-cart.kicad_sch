@@ -1108,6 +1108,7 @@
     )
   )
 
+
   (junction (at 52.07 66.675) (diameter 0) (color 0 0 0 0)
     (uuid 0fa15ac9-5a6b-4e6c-9d87-079c144a8b3d)
   )
@@ -1122,6 +1123,9 @@
   )
   (junction (at 139.065 78.74) (diameter 0) (color 0 0 0 0)
     (uuid 46e2bb92-78fa-412d-a008-8618ccde0c35)
+  )
+  (junction (at 131.445 112.395) (diameter 0) (color 0 0 0 0)
+    (uuid 5aaead2a-e1cf-46db-9bee-fada8be73b64)
   )
   (junction (at 57.15 69.215) (diameter 0) (color 0 0 0 0)
     (uuid 6a2bd0fb-3275-46d3-a393-9fc9ea94b90f)
@@ -1340,7 +1344,7 @@
     (stroke (width 0) (type default))
     (uuid 3fea6a7e-8720-456d-87e4-f0539fc7c585)
   )
-  (wire (pts (xy 121.92 112.395) (xy 133.985 112.395))
+  (wire (pts (xy 121.92 112.395) (xy 131.445 112.395))
     (stroke (width 0) (type default))
     (uuid 3ff32f36-dc63-4cc1-9117-16197c56ad29)
   )
@@ -1371,6 +1375,10 @@
   (wire (pts (xy 240.03 74.93) (xy 238.125 74.93))
     (stroke (width 0) (type default))
     (uuid 5f41dc43-594c-4c40-8bd0-ac6f45bfffb8)
+  )
+  (wire (pts (xy 131.445 112.395) (xy 133.985 112.395))
+    (stroke (width 0) (type default))
+    (uuid 616aaa4b-8272-4ac9-84a6-a7264de9c798)
   )
   (wire (pts (xy 241.935 95.25) (xy 238.125 95.25))
     (stroke (width 0) (type default))
@@ -1424,7 +1432,7 @@
     (stroke (width 0) (type default))
     (uuid 7afe1e9f-c296-427f-84db-cc234fde4d01)
   )
-  (wire (pts (xy 141.605 78.74) (xy 139.065 78.74))
+  (wire (pts (xy 146.05 78.74) (xy 139.065 78.74))
     (stroke (width 0) (type default))
     (uuid 7edd00cb-1391-4300-8136-323d1219a292)
   )
@@ -2205,7 +2213,7 @@
     )
     (pin "1" (uuid bcfd5cbf-aa3c-4e79-ab9d-b6149ae45c2e))
     (instances
-      (project "zxcart"
+      (project "delta-s-test-cart"
         (path "/ecf6c71e-9caf-45b3-98d6-5b37bf48a9ce"
           (reference "#PWR0118") (unit 1)
         )
@@ -2231,7 +2239,7 @@
     (pin "1" (uuid 4b34c1a1-41d5-4e69-b595-3793ad65235d))
     (pin "2" (uuid a83026f6-2187-4857-a977-4906d1714fef))
     (instances
-      (project "zxcart"
+      (project "delta-s-test-cart"
         (path "/ecf6c71e-9caf-45b3-98d6-5b37bf48a9ce"
           (reference "C2") (unit 1)
         )
@@ -2256,7 +2264,7 @@
     )
     (pin "1" (uuid 2718c728-a732-4e86-8d8b-7f00c6459f12))
     (instances
-      (project "zxcart"
+      (project "delta-s-test-cart"
         (path "/ecf6c71e-9caf-45b3-98d6-5b37bf48a9ce"
           (reference "#PWR0101") (unit 1)
         )
@@ -2294,7 +2302,7 @@
     (pin "8" (uuid 70bc92c7-fa88-4ea0-8e8b-4def32605707))
     (pin "9" (uuid de297dcf-cd08-464c-80c5-cbf573b4ab1f))
     (instances
-      (project "zxcart"
+      (project "delta-s-test-cart"
         (path "/ecf6c71e-9caf-45b3-98d6-5b37bf48a9ce"
           (reference "U1") (unit 1)
         )
@@ -2320,7 +2328,7 @@
     (pin "1" (uuid e0f9bc9a-5f67-49db-95d6-132fdbb273f7))
     (pin "2" (uuid 67a8552f-d384-4c3e-bd29-31e4002ad6c3))
     (instances
-      (project "zxcart"
+      (project "delta-s-test-cart"
         (path "/ecf6c71e-9caf-45b3-98d6-5b37bf48a9ce"
           (reference "SW2") (unit 1)
         )
@@ -2345,7 +2353,7 @@
     )
     (pin "1" (uuid 9dc2bec9-fff2-4948-9904-995d04291df3))
     (instances
-      (project "zxcart"
+      (project "delta-s-test-cart"
         (path "/ecf6c71e-9caf-45b3-98d6-5b37bf48a9ce"
           (reference "#PWR0109") (unit 1)
         )
@@ -2423,7 +2431,7 @@
     (pin "8" (uuid 909b7d13-14f7-41b7-a4c9-58f290e1cdf6))
     (pin "9" (uuid 2b8a4d19-3c3f-402a-ab20-76d2ce0dca0c))
     (instances
-      (project "zxcart"
+      (project "delta-s-test-cart"
         (path "/ecf6c71e-9caf-45b3-98d6-5b37bf48a9ce"
           (reference "J2") (unit 1)
         )
@@ -2511,7 +2519,7 @@
     (pin "8" (uuid fc25f45f-6f90-4110-9514-b6b603a7d1b0))
     (pin "9" (uuid 2f0ae467-a4be-4744-820c-d20ea91f24b1))
     (instances
-      (project "zxcart"
+      (project "delta-s-test-cart"
         (path "/ecf6c71e-9caf-45b3-98d6-5b37bf48a9ce"
           (reference "J1") (unit 1)
         )
@@ -2536,7 +2544,7 @@
     )
     (pin "1" (uuid fbfa67bf-bb05-4162-991b-ef3a1523f4a5))
     (instances
-      (project "zxcart"
+      (project "delta-s-test-cart"
         (path "/ecf6c71e-9caf-45b3-98d6-5b37bf48a9ce"
           (reference "#PWR0108") (unit 1)
         )
@@ -2562,7 +2570,7 @@
     (pin "1" (uuid 42e12de9-faa6-4159-abb4-e07c37e7c1f2))
     (pin "2" (uuid 9180b86e-d08f-4211-9220-74d0d958f2ac))
     (instances
-      (project "zxcart"
+      (project "delta-s-test-cart"
         (path "/ecf6c71e-9caf-45b3-98d6-5b37bf48a9ce"
           (reference "R1") (unit 1)
         )
@@ -2587,7 +2595,7 @@
     )
     (pin "1" (uuid bc94ea5d-43ac-44a0-86f7-6e008245c039))
     (instances
-      (project "zxcart"
+      (project "delta-s-test-cart"
         (path "/ecf6c71e-9caf-45b3-98d6-5b37bf48a9ce"
           (reference "#PWR0105") (unit 1)
         )
@@ -2613,7 +2621,7 @@
     (pin "1" (uuid 0241d363-757b-4577-9aa2-a0137a97c569))
     (pin "2" (uuid 25837370-0332-4194-93a8-ef9515a18a16))
     (instances
-      (project "zxcart"
+      (project "delta-s-test-cart"
         (path "/ecf6c71e-9caf-45b3-98d6-5b37bf48a9ce"
           (reference "R2") (unit 1)
         )
@@ -2638,7 +2646,7 @@
     )
     (pin "1" (uuid 578a6155-4415-4db2-8117-cd667048bdcb))
     (instances
-      (project "zxcart"
+      (project "delta-s-test-cart"
         (path "/ecf6c71e-9caf-45b3-98d6-5b37bf48a9ce"
           (reference "#FLG0102") (unit 1)
         )
@@ -2663,9 +2671,34 @@
     )
     (pin "1" (uuid 5943c6bf-c252-4ce8-9277-e1573332917b))
     (instances
-      (project "zxcart"
+      (project "delta-s-test-cart"
         (path "/ecf6c71e-9caf-45b3-98d6-5b37bf48a9ce"
           (reference "#PWR0106") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:PWR_FLAG") (at 131.445 112.395 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 743f7c46-7059-4ba0-ad2c-17fc1405edd4)
+    (property "Reference" "#FLG01" (at 131.445 110.49 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (at 131.445 107.315 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 131.445 112.395 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 131.445 112.395 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c3ecaf48-073c-4fde-9cbd-9d1f30af0c67))
+    (instances
+      (project "delta-s-test-cart"
+        (path "/ecf6c71e-9caf-45b3-98d6-5b37bf48a9ce"
+          (reference "#FLG01") (unit 1)
         )
       )
     )
@@ -2688,9 +2721,34 @@
     )
     (pin "1" (uuid b7030735-ad6e-4d81-9360-b80df51d5c59))
     (instances
-      (project "zxcart"
+      (project "delta-s-test-cart"
         (path "/ecf6c71e-9caf-45b3-98d6-5b37bf48a9ce"
           (reference "#FLG0101") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 146.05 78.74 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 7c78eff2-241c-48f4-9a3b-f590c763d534)
+    (property "Reference" "#PWR01" (at 152.4 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 149.225 79.375 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 146.05 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 146.05 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 215b4f4d-06c6-4240-a686-b3cd233242b4))
+    (instances
+      (project "delta-s-test-cart"
+        (path "/ecf6c71e-9caf-45b3-98d6-5b37bf48a9ce"
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -2714,7 +2772,7 @@
     (pin "1" (uuid 8193db0e-e254-4041-b07e-aacef385b791))
     (pin "2" (uuid b38d14ed-f335-4fc7-bc68-3d2c288ea75c))
     (instances
-      (project "zxcart"
+      (project "delta-s-test-cart"
         (path "/ecf6c71e-9caf-45b3-98d6-5b37bf48a9ce"
           (reference "R3") (unit 1)
         )
@@ -2739,7 +2797,7 @@
     )
     (pin "1" (uuid 9dca8a11-a6ad-4f2a-a4f9-ca7d739b6831))
     (instances
-      (project "zxcart"
+      (project "delta-s-test-cart"
         (path "/ecf6c71e-9caf-45b3-98d6-5b37bf48a9ce"
           (reference "#PWR0119") (unit 1)
         )
@@ -2764,7 +2822,7 @@
     )
     (pin "1" (uuid 8e6ecc03-e09b-4b7f-b86b-8f3a3ad4e19c))
     (instances
-      (project "zxcart"
+      (project "delta-s-test-cart"
         (path "/ecf6c71e-9caf-45b3-98d6-5b37bf48a9ce"
           (reference "#PWR0110") (unit 1)
         )
@@ -2789,7 +2847,7 @@
     )
     (pin "1" (uuid 699e2bd3-a98a-4be6-a0a5-09c141b6b5dd))
     (instances
-      (project "zxcart"
+      (project "delta-s-test-cart"
         (path "/ecf6c71e-9caf-45b3-98d6-5b37bf48a9ce"
           (reference "#PWR0114") (unit 1)
         )
@@ -2817,7 +2875,7 @@
     (pin "3" (uuid 4b3d48ab-4463-423e-8788-a99d10607224))
     (pin "4" (uuid 2258a004-ce58-42a6-ab16-488fd52c1531))
     (instances
-      (project "zxcart"
+      (project "delta-s-test-cart"
         (path "/ecf6c71e-9caf-45b3-98d6-5b37bf48a9ce"
           (reference "SW1") (unit 1)
         )
@@ -2842,34 +2900,9 @@
     )
     (pin "1" (uuid 9258a3c9-441b-468d-aeb6-cfebb22d8489))
     (instances
-      (project "zxcart"
+      (project "delta-s-test-cart"
         (path "/ecf6c71e-9caf-45b3-98d6-5b37bf48a9ce"
           (reference "#PWR0107") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+5V") (at 141.605 78.74 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid d1c77b36-39f1-46cd-aa00-be3a7e2792d8)
-    (property "Reference" "#PWR0116" (at 137.795 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 145.415 78.7399 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 141.605 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 141.605 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f92385b8-f6eb-4b1e-8f99-6499a95ec1c7))
-    (instances
-      (project "zxcart"
-        (path "/ecf6c71e-9caf-45b3-98d6-5b37bf48a9ce"
-          (reference "#PWR0116") (unit 1)
         )
       )
     )
@@ -2892,7 +2925,7 @@
     )
     (pin "1" (uuid 161755d7-100c-44bd-9b57-57bc8f30dd75))
     (instances
-      (project "zxcart"
+      (project "delta-s-test-cart"
         (path "/ecf6c71e-9caf-45b3-98d6-5b37bf48a9ce"
           (reference "#PWR0117") (unit 1)
         )
@@ -2917,7 +2950,7 @@
     )
     (pin "1" (uuid 27659b28-4413-441c-9493-5371444467c8))
     (instances
-      (project "zxcart"
+      (project "delta-s-test-cart"
         (path "/ecf6c71e-9caf-45b3-98d6-5b37bf48a9ce"
           (reference "#PWR0111") (unit 1)
         )
@@ -2943,7 +2976,7 @@
     (pin "1" (uuid 896de827-18e9-46dd-95c9-cdd5ce7b605b))
     (pin "2" (uuid 1e18ecb8-d304-42a3-8a2b-28477750a234))
     (instances
-      (project "zxcart"
+      (project "delta-s-test-cart"
         (path "/ecf6c71e-9caf-45b3-98d6-5b37bf48a9ce"
           (reference "C1") (unit 1)
         )
@@ -2968,7 +3001,7 @@
     )
     (pin "1" (uuid 1c3ea620-8125-4561-938f-cc90de36ca94))
     (instances
-      (project "zxcart"
+      (project "delta-s-test-cart"
         (path "/ecf6c71e-9caf-45b3-98d6-5b37bf48a9ce"
           (reference "#PWR0103") (unit 1)
         )
@@ -2993,7 +3026,7 @@
     )
     (pin "1" (uuid 646b210e-d7d4-4822-b47c-ab22bfa724bc))
     (instances
-      (project "zxcart"
+      (project "delta-s-test-cart"
         (path "/ecf6c71e-9caf-45b3-98d6-5b37bf48a9ce"
           (reference "#PWR0102") (unit 1)
         )
@@ -3018,7 +3051,7 @@
     )
     (pin "1" (uuid 6fe9a00f-ee82-4819-9a48-b7f00e77f30f))
     (instances
-      (project "zxcart"
+      (project "delta-s-test-cart"
         (path "/ecf6c71e-9caf-45b3-98d6-5b37bf48a9ce"
           (reference "#PWR0113") (unit 1)
         )
@@ -3043,7 +3076,7 @@
     )
     (pin "1" (uuid ee7e59a1-d64c-4134-81a2-8cb833eeca1f))
     (instances
-      (project "zxcart"
+      (project "delta-s-test-cart"
         (path "/ecf6c71e-9caf-45b3-98d6-5b37bf48a9ce"
           (reference "#PWR0115") (unit 1)
         )
@@ -3060,7 +3093,7 @@
     (property "Value" "27C512" (at 99.1744 26.035 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_DIP:DIP-28_W15.24mm" (at 97.155 53.975 0)
+    (property "Footprint" "Socket:DIP_Socket-28_W11.9_W12.7_W15.24_W17.78_W18.5_3M_228-1277-00-0602J" (at 97.155 53.975 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/doc0015.pdf" (at 97.155 53.975 0)
@@ -3095,7 +3128,7 @@
     (pin "8" (uuid fbc13f75-65c8-4438-9a27-38bf22e0b66e))
     (pin "9" (uuid da8a8ebc-2259-45f6-8e90-736ce8b8b9df))
     (instances
-      (project "zxcart"
+      (project "delta-s-test-cart"
         (path "/ecf6c71e-9caf-45b3-98d6-5b37bf48a9ce"
           (reference "U2") (unit 1)
         )
@@ -3120,7 +3153,7 @@
     )
     (pin "1" (uuid bc33b30c-cc80-4624-b071-f2abeceb5e66))
     (instances
-      (project "zxcart"
+      (project "delta-s-test-cart"
         (path "/ecf6c71e-9caf-45b3-98d6-5b37bf48a9ce"
           (reference "#PWR0112") (unit 1)
         )
@@ -3145,7 +3178,7 @@
     )
     (pin "1" (uuid 304faf09-4c1a-4526-b52a-fd39c81fbb4b))
     (instances
-      (project "zxcart"
+      (project "delta-s-test-cart"
         (path "/ecf6c71e-9caf-45b3-98d6-5b37bf48a9ce"
           (reference "#PWR0104") (unit 1)
         )

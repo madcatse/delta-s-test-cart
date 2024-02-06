@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Diagnostic_board")(type "KiCad")(uri "${KIPRJMOD}/libs/Diagnostic_board.pretty")(options "")(descr ""))
+)
