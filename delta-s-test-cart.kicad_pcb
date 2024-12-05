@@ -736,6 +736,11 @@
       (net 41 "unconnected-(J1-BD6-Pad63)") (pinfunction "BD6") (pintype "output+no_connect") (tstamp 79a4a6fd-0fb6-438d-86cb-627bb7863c50))
     (pad "64" smd rect (at 0.635 -5) (size 1.27 10) (layers "B.Cu")
       (net 42 "unconnected-(J1-ГТ-Pad64)") (pinfunction "ГТ") (pintype "output+no_connect") (tstamp e6672afa-1c0c-4404-8297-62407400ad27))
+    (model "C:/Users/madcat/Documents/GitHub/bdi_for_75/bdi_schematics/Delta-S-M-BDI/libs/snp59-96_female.stp"
+      (offset (xyz 58 16.5 -10.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Diagnostic_board:C_Disc_D4.7mm_W2.5mm_P5.00mm" (layer "F.Cu")
